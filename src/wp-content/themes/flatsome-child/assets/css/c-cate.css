@@ -1,0 +1,75 @@
+/* .c-cate */
+.c-cate .mo-ta-title h1,
+.c-cate .mo-ta-title p {
+  font-size: 28px;
+  color: #fff;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.c-cate .mo-ta-nd {
+  max-height: 360px;
+  overflow: scroll;
+  padding: 20px;
+  background: #2518186b;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.c-cate .c-game-bai .section-bg {
+  display: none;
+}
+
+/* .c-cate-tai-xiu */
+.c-cate-tai-xiu .post-item .is-divider,
+.c-cate-tai-xiu .post-item .overlay {
+  display: none;
+}
+.c-cate-tai-xiu .post-item .box-text {
+  width: 50%;
+  height: 30%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+.c-cate-tai-xiu .post-title {
+  color: #ffac0c;
+  font-size: 30px;
+}
+.c-cate-tai-xiu .post-btn-2 .button {
+  font-size: 14px;
+}
+.c-cate-tai-xiu .img-right {
+  display: flex;
+  align-items: flex-end;
+}
+
+.c-cate-lode .home-lode .section-bg {
+  display: none;
+}
+
+.c-cate-the-thao .post-btn-2 .button {
+  width: 35%;
+}
+.c-cate-the-thao .post-btn-2 {
+  flex-direction: row !important;
+  gap: 10px;
+}
+.c-cate-the-thao .post-title {
+  color: #fff;
+  font-size: 16px;
+}
+.c-cate-the-thao .post-item {
+  padding-bottom: 0;
+}
+.c-cate-the-thao .c-keo-hot .button {
+  padding: 0 15px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-cate-the-thao .c-keo-hot .button i {
+  margin: 0;
+}

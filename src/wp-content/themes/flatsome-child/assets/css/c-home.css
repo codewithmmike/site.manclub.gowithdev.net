@@ -1,0 +1,381 @@
+/* .post-btn */
+.post-btn {
+  padding: 0 10px;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.post-item:hover .post-btn {
+  opacity: 1;
+}
+.post-item:hover .box-image {
+  opacity: 0.7;
+}
+.post-btn .button {
+  font-size: 12px;
+  padding: 10px 5px;
+  width: 60%;
+  max-width: 160px;
+  min-width: 100px;
+  margin: 0 0 5px 0;
+  background-color: #ccac76;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-btn .btn-2 {
+  background-color: #979296;
+}
+
+
+.kien-thuc-btn-1 {
+  font-size: 12px;
+  padding: 10px 5px;
+  max-width: 160px;
+  min-width: 100px;
+  margin: 0 0 5px 0;
+  background-color: #ccac76;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kien-thuc-btn-2 {
+  font-size: 12px;
+  padding: 10px 5px;
+  max-width: 160px;
+  min-width: 100px;
+  margin: 0 0 5px 0;
+  background-color: #979296;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-btn-2 {
+  flex-direction: row;
+  gap: 10px;
+  height: unset;
+  bottom: 0;
+  position: relative;
+  margin-top: 10px;
+  opacity: 1;
+}
+.post-btn-2 .button {
+  padding: 5px !important;
+  width: 45%;
+  min-width: 90px;
+  font-size: 10px;
+}
+.addBtn3 .post-item:hover .box-image,
+.addBtn2 .post-item:hover .box-image {
+  opacity: 1 !important;
+}
+
+.background-home {
+  background: url(/wp-content/uploads/2024/01/Trang-chu-scaled.webp);
+  background-position: top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.breadcrumb {
+  justify-content: center;
+}
+.icon-menu,
+#masthead .icon-search {
+  color: #fff;
+}
+.submit-button {
+  background-color: #272323 !important;
+}
+.sidebar-menu {
+  color: #fff;
+  background: #272323;
+}
+/* header */
+#masthead .menu-item a {
+  color: #fff;
+  font-size: 18px;
+}
+#masthead .menu-item.active a {
+  color: #ecd0a2;
+}
+#masthead .header-nav {
+  gap: 10px;
+}
+/* #masthead .header-inner {
+  max-width: 90%;
+} */
+#logo {
+  width: unset !important;
+  margin: 0;
+}
+/* footer */
+.c-footer p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.c-footer .cf-title {
+  margin-bottom: 20px;
+}
+.c-footer .cf-title .section-title-main {
+  font-size: 18px;
+  padding: 0;
+  color: #fff;
+}
+.c-footer .cf-title b {
+  color: #fff;
+  opacity: 1;
+  margin-top: 10px;
+  height: 1px;
+}
+
+.c-footer .social-icons {
+  color: #fff;
+  display: flex;
+  gap: 20px;
+}
+.c-footer .social-icons a {
+  margin: 0;
+}
+
+/* .c-gioi-thieu */
+.c-gioi-thieu .title {
+  color: #ecd0a2;
+  font-size: 24px;
+}
+.c-gioi-thieu p {
+  font-size: 14px;
+}
+.c-gioi-thieu .box-text {
+  padding: 0 0 0 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.c-gioi-thieu .box-text-inner {
+  margin-left: 0;
+}
+.c-gioi-thieu .icon-box-text {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.c-gioi-thieu .icon-box-text span {
+  color: #ffac0c;
+}
+.c-gioi-thieu .icon-box-img {
+  display: flex;
+  align-items: center;
+}
+/* .c-game-bai */
+
+/* ..c-game-bai */
+/* .c-game-slot */
+.c-game-slot .post-btn .button {
+  width: 90%;
+}
+/* .c-casino */
+.c-casino .post-item .is-divider,
+.c-casino .post-item .overlay {
+  display: none;
+}
+.c-casino .post-item .box-text {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+.c-casino .post-title {
+  color: #ffac0c;
+}
+/* ..c-casino */
+
+.home-lode {
+  .col_post_item {
+    position: relative;
+
+    .img_abs {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      margin: unset;
+    }
+
+    .row {
+      margin: unset !important;
+      margin-bottom: 1rem !important;
+    }
+  }
+}
+.home-lode .col_post_item {
+  background: url(/wp-content/uploads/2024/01/btn_code-2.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.home-thethao {
+  .icon-box {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    p {
+      margin: unset;
+    }
+
+    img {
+      padding: unset;
+    }
+  }
+}
+
+.home-huong-dan .c-doi-net {
+  font-size: 30px;
+}
+.home-huong-dan .c-doi-net span {
+  color: #f5bf19;
+}
+.home-huong-dan .chd-mota {
+  max-height: 270px;
+  overflow: scroll;
+  padding: 20px;
+  background: #2518186b;
+  border-radius: 20px;
+}
+.home-huong-dan {
+  .post-item {
+    /* padding-left: 10%; */
+
+    @media (max-width: 992px) {
+      flex-basis: 30% !important;
+      max-width: 30% !important;
+    }
+
+    @media (max-width: 768px) {
+      flex-basis: 45% !important;
+      max-width: 45% !important;
+    }
+
+    @media (max-width: 550px) {
+      flex-basis: 100% !important;
+      max-width: 100% !important;
+    }
+
+    .box-text {
+      height: 100%;
+      padding-left: 10%;
+
+      .post-title a {
+        color: #ecd0a2;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 14px;
+        margin-top: 15%;
+
+        @media (max-width: 500px) {
+          margin-top: 25% !important;
+        }
+
+        @media (max-width: 320px) {
+          display: block;
+        }
+      }
+    }
+
+    .is-divider {
+      display: none;
+    }
+
+    .button {
+      position: absolute;
+      bottom: 1rem;
+      right: 0.5rem;
+      color: #ecd0a2;
+      font-size: 14px;
+      width: 100%;
+      text-align: right;
+      text-transform: unset;
+      font-size: 14px;
+
+      @media (max-width: 500px) {
+        bottom: 2rem !important;
+      }
+
+      @media (max-width: 320px) {
+        bottom: 1rem !important;
+      }
+    }
+  }
+}
+
+.home-9-kienthuc {
+  .tabbed-content {
+    display: flex;
+    gap: 1rem;
+
+    h4 {
+      text-transform: unset;
+      color: white;
+      display: inline;
+      width: unset;
+      font-size: 40px;
+      @media (max-width: 768px) {
+        font-size: 24px;
+      }
+    }
+    .nav {
+      width: unset;
+      gap: 0.7rem;
+    }
+    .nav li {
+      background-color: #ff0c0c;
+      padding: 0px 1rem;
+      border-bottom-right-radius: 20px;
+      a span {
+        color: white;
+      }
+    }
+    .nav li:last-child {
+      background-color: #ffac0c;
+    }
+    .post-item {
+      .box {
+        background-color: rgba(37, 24, 24, 0.564);
+      }
+      .box-text {
+        @media (max-width: 550px) {
+          padding-left: 1rem;
+        }
+      }
+    }
+    .post-title {
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+}
+
+.home-9-kienthuc .tab-panels {
+  max-height: 700px;
+  overflow: scroll;
+}
